@@ -13,8 +13,8 @@ n_row={'Name':'GF1','Age':20 ,'City':'City1'}
 df.loc[len(df.index)]=n_row
 
 #adding new row to df for v3
-# n_row1={'Name':'V3','Age':30,'City':'City1'}
-# df.loc[len(df.index)]=n_row1
+n_row1={'Name':'gf2','Age':30,'City':'City2'}
+df.loc[len(df.index)]=n_row1
 data_dir='data'
 os.makedirs(data_dir,exist_ok=True)
 

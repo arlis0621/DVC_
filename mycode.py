@@ -9,8 +9,8 @@ data={'Name':['Alice','Bob','Charlie'],'Age':[25,30,45],'City':['New_York','Los 
 df=pd.DataFrame(data)
 
 #adding new row to df
-#n_row={'Name: 'V2, 'Age':20 ,'City':'City1'}
-#df.loc[len(df.index)]=n_row
+n_row={'Name':'GF1','Age':20 ,'City':'City1'}
+df.loc[len(df.index)]=n_row
 
 #adding new row to df for v3
 # n_row1={'Name':'V3','Age':30,'City':'City1'}
